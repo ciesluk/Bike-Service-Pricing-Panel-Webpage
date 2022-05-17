@@ -69,7 +69,7 @@ nav{
     justify-content: space-around;
 }
 
-a{
+li > a{
     text-decoration: none;
     color: white;
     transition: color 200ms ease-in-out;
@@ -118,4 +118,29 @@ button:hover{
     .navlinks li{
         padding: 10px 0;
     }
+}
+
+/*Styling the panel*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #01759B;
+}
+
+.panel{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 25pxli
 }
