@@ -173,3 +173,62 @@ button:hover{
     color:#0094C6;
 }
 
+.features-items{
+    padding: 20px 0;
+    border-top: 1px solid lightgray;
+}
+
+.features-items:last-child{
+    border-bottom: 1px solid lightgray;
+}
+
+.features-price{
+    display: block;
+    margin: 10px 0 25px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #13275f;
+}
+
+.pricing-button{
+    display: inline-block;
+    margin-bottom: 25px;
+    border: 2px solid #0094C6;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color:#0094C6;
+    transition: all 200ms ease-in-out;
+}
+
+.pricing-button:hover{
+    background-color: #01759B;
+    color: white;
+    text-decoration: none;
+}
+
+.is-featured{
+    background-color: #01759B;
+    color: white;
+    border: 1px solid white;
+}
+
+.is-featured:hover{
+    background-color: #005E7C;
+}
+
+@media (min-width: 900px){
+    .panel{
+        flex-direction: row;
+    }
+
+    .pricing-plan{
+        border-bottom: none;
+        border-right: 1px solid lightgray;
+        padding: 25px 50px;
+    }
+
+    .pricing-plan:last-child{
+        border-right: none;
+    }
+}
