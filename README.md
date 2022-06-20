@@ -13,6 +13,11 @@ Utilized Flexbox to create a static HTML/CSS page. Created a custom navigation b
 - CSS3
 - Images created with Canva
 
+## Link to Project
+Project was deployed on Heroku. Please visit the link below to view the project.
+
+<a href="https://bike-service-pricing-panel.herokuapp.com/">Bike Service Pricing Panel</a>
+
 ## How to Install 
 
 Copy this line of code into the terminal on Visual Studio Code and you will be able to access the files used to create the website.
